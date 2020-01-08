@@ -7,4 +7,4 @@ entry_points:
     parameters:
       batch_size: {type: int, default: 100}
       train_steps: {type: int, default: 1000}
-    command: "pylint train_predict_2.py --batch_size={batch_size} --train_steps={train_steps}"
+    command: "python train_predict_2.py --batch_size={batch_size} --train_steps={train_steps}"
