@@ -16,8 +16,8 @@ Pour lancer l'image utilisez simplement `docker-compose build`
 
 Une fois l'image lancé vous avez accés:
 
-au serveur Mlflow via l'adresse : 
+au serveur Mlflow via l'adresse : <br>
 [https//:127.0.0.1:5000](https//:127.0.0.1:5000)
 
-au Jupyter notebook via :
+au Jupyter notebook via : <br>
 [https//:127.0.0.1:8887](https//:127.0.0.1:8887)
