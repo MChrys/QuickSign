@@ -25,7 +25,7 @@ au Jupyter notebook via : <br>
 ## 3. Lancement d'une run du project tensorflow
 
   - ouvrez le notebook `GUI_QuickSign.ipynb`
-  - executez les deux premères cellules via le raccourci `SHIFT + ENTRY`
+  - executez les deux premières cellules via le raccourci `SHIFT + ENTRY`
 
 ![run](/img/run_livrable.PNG)
 
