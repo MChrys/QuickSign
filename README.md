@@ -27,6 +27,8 @@ au Jupyter notebook via : <br>
   - ouvrez le notebook `GUI_QuickSign.ipynb`
   - executez les deux premère cellule via le raccourci `SHIFT + ENTRY`
 
+![run](/img/run_livrable.PNG)
+
 Via l'interface GUI qui apparait faites varier les deux paramètre, si vous en souhaitez de différent que ceux par défault
 Cliquez simplement sur le boutton  `RUN`
 
