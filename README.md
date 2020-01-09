@@ -3,7 +3,7 @@ Livrable
 
 
 
-#1. Execution du projet
+# 1. Execution du projet
   
   - installez docker, docker-compose et git
   - clonez le répertoire avec la commmande `git clone https://github.com/MChrys/QuickSign.git`
@@ -12,7 +12,7 @@ Dans le répertoir du projet, montez l'image avec la `docker-compose build`, c'e
 
 Pour lancer l'image utilisez simplement `docker-compose build`
 
-#2. Ouverture des applications 
+# 2. Ouverture des applications 
 
 Une fois l'image lancé vous avez accés au serveur Mlflow via l'adresse : 
 
