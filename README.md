@@ -17,7 +17,14 @@ Pour lancer l'image utilisez simplement `docker-compose build`
 Une fois l'image lancé vous avez accés:
 
 au serveur Mlflow via l'adresse : <br>
-[https//:127.0.0.1:5000](https//:127.0.0.1:5000)
+  [https//:127.0.0.1:5000](https//:127.0.0.1:5000)
 
 au Jupyter notebook via : <br>
-[https//:127.0.0.1:8887](https//:127.0.0.1:8887)
+  [https//:127.0.0.1:8887](https//:127.0.0.1:8887)
+
+# 3. Lancement d'une run du project tensorflow
+
+  - ouvrez le notebook `GUI_QuickSign.ipynb`
+  - executez les deux premère cellule via le raccourci `SHIFT + ENTRY`
+
+
