@@ -9,15 +9,6 @@ services:
       - mlflow
     environment: 
       MLFLOW_TRACKING_URI: 'http://mlflow:5000'
-  notebook:
-    build:
-      context: ./jupyter-notebook-docker
-    ports:
-      - "8888:8888"
-    depends_on: 
-      - mlflow
-    environment: 
-      MLFLOW_TRACKING_URI: 'http://mlflow:5000'
   mlflow:
     build:
       context: ./ml-flow-docker
