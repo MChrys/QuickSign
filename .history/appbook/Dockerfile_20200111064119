@@ -9,15 +9,14 @@ RUN conda install --quiet --yes \
     'tensorflow'\
     'nodejs'
 RUN pip install pylint ipywidgets bqplot
-#RUN git clone https://github.com/MChrys/QuickSign.git 
-RUN pwd;ls
-COPY GUI_QuickSign.ipynb .
-RUN mkdir project
-COPY /project /project
-
-VOLUME["project"]
 
 RUN jupyter nbextension enable --py widgetsnbextension \
     && jupyter labextension install @jupyter-widgets/jupyterlab-manager
+
+#RUN git clone https://github.com/MChrys/QuickSign.git 
+RUN pwd;ls
+#COPY GUI_QuickSign.ipynb .
+COPY . .
+
 #RUN conda install jupyter 
 CMD jupyter notebook --ip=0.0.0.0 --port=8887 --no-browser --allow-root 
