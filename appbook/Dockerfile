@@ -12,8 +12,9 @@ RUN pip install pylint ipywidgets bqplot
 #RUN git clone https://github.com/MChrys/QuickSign.git 
 RUN pwd;ls
 COPY GUI_QuickSign.ipynb .
-RUN mkdir project
+RUN mkdir project && mkdir display_log
 COPY /project /project
+COPY /diplay_log /display_log
 
 VOLUME ["/project"]
 
