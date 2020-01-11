@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chrysostome/Bureau/DataScience/quicksign/livrable/QuickSign/mlruns/1/d030860011a741f993e9b198fa5cd850/artifacts
+end_time: 1578726369327
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: d030860011a741f993e9b198fa5cd850
+run_uuid: d030860011a741f993e9b198fa5cd850
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1578726342730
+status: 4
+tags: []
+user_id: chrysostome

@@ -21,7 +21,7 @@ COPY GUI_QuickSign.html .
 
 COPY project project
 COPY display_log display_log
-VOLUME ["/home"] 
+VOLUME ["/home"]
+RUN jupyter trust GUI_QuickSign.ipynb
 #RUN conda install jupyter 
-CMD jupyter trust GUI_QuickSign.ipynb \
-    && jupyter notebook --ip=0.0.0.0 --port=8887 --no-browser --allow-root 
+CMD jupyter notebook --ip=0.0.0.0 --port=8887 --no-browser --allow-root 

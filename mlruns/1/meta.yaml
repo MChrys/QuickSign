@@ -1,0 +1,4 @@
+artifact_location: file:///home/chrysostome/Bureau/DataScience/quicksign/livrable/QuickSign/mlruns/1
+experiment_id: '1'
+lifecycle_stage: active
+name: Quicksign-tensorflow

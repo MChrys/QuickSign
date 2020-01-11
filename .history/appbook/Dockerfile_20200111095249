@@ -17,11 +17,9 @@ RUN jupyter nbextension enable --py widgetsnbextension --sys-prefix \
 #RUN git clone https://github.com/MChrys/QuickSign.git 
 RUN pwd;ls
 COPY GUI_QuickSign.ipynb .
-COPY GUI_QuickSign.html .
-
+RUN jupyter trust GUI_QuickSign.ipynb
 COPY project project
 COPY display_log display_log
-VOLUME ["/home"] 
+VOLUME ["${APP_HOME"]
 #RUN conda install jupyter 
-CMD jupyter trust GUI_QuickSign.ipynb \
-    && jupyter notebook --ip=0.0.0.0 --port=8887 --no-browser --allow-root 
+CMD jupyter notebook --ip=0.0.0.0 --port=8887 --no-browser --allow-root 
