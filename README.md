@@ -18,22 +18,23 @@ Une fois l'image lancée vous avez accès:
 
 au serveur Mlflow via l'adresse : <br>
   [https//:127.0.0.1:5000](https//:127.0.0.1:5000)
+  
+  ![run](/img/mlflow.PNG)
 
 au Jupyter notebook via : <br>
   [https//:127.0.0.1:8887](https//:127.0.0.1:8887)
 
 ## 3. Lancement d'une run du project tensorflow
 
-![run](/img/premier_run.PNG)
-
   - ouvrez le notebook `GUI_QuickSign.ipynb`
-  - executez la première cellule via le raccourci `SHIFT + ENTRY` si vous voyer ce message
-    
+  - executez la première cellule via le raccourci `SHIFT + ENTRY` si vous voyer ce message    
 
-![run](/img/run_livrable.PNG)
+![run](/img/premier_run.PNG)
 
 Via l'interface GUI qui apparaît faites varier les deux paramètre, si vous en souhaitez de différent que ceux par défault
 Cliquez simplement sur le boutton  `RUN`
+
+![run](/img/run_livrable.PNG)
 
 Dans la page du serveur ML vous constaterez le résulat de la run du projet dans l'expérience `QuickSign-tensorflow`
 
@@ -44,6 +45,8 @@ ouvrez l'onglet `pylint eval` et cliquez sur le boutton `rating`
 ![run](/img/rating_livrable.PNG)
 
 A la fin des logging on obtiens un score sur 10
+
+![run](/img/rating.PNG)
 
 ## 5. l'interface
 
