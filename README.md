@@ -23,6 +23,8 @@ au serveur Mlflow via l'adresse : <br>
 
 au Jupyter notebook via : <br>
   [https//:127.0.0.1:8887](https//:127.0.0.1:8887)
+  
+  ![run](/img/notebook.PNG)
 
 ## 3. Lancement d'une run du project tensorflow
 
@@ -44,7 +46,7 @@ ouvrez l'onglet `pylint eval` et cliquez sur le boutton `rating`
 
 ![run](/img/rating_livrable.PNG)
 
-A la fin des logging on obtiens un score sur 10
+A la fin des loggings on obtiens un score sur 10
 
 ![run](/img/rating.PNG)
 
