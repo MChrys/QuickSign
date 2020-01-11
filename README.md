@@ -41,3 +41,8 @@ ouvrez l'onglet `pylint eval` et cliquez sur le boutton `rating`
 ![run](/img/rating_livrable.PNG)
 
 A la fin des logging on obtiens un score sur 10
+
+## 5. l'interface
+
+le boutton `hiding / display code` permet d'afficher ou de masquer le code
+le lien à côté de `show off/on warnings` permet d'afficher ou de cacher les messages d'alert rose
